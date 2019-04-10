@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.oriente.flutterservice">
+    <application>
+        <activity
+                android:name=".FlutterPageActivity"
+                android:theme="@style/Theme.AppCompat"
+                android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+                android:hardwareAccelerated="true"
+                android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+                android:name=".FlutterFragmentPageActivity"
+                android:theme="@style/Theme.AppCompat"
+                android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+                android:hardwareAccelerated="true"
+                android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+                android:name=".NativePageActivity"
+                android:theme="@style/Theme.AppCompat"
+                android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+                android:windowSoftInputMode="adjustResize"/>
+    </application>
+</manifest>
